@@ -1,0 +1,24 @@
+{
+  "name": "module-exports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run compile",
+    "test": "mocha --reporter spec --full-trace lib/test.js",
+    "compile": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/lodash": "^4.14.44",
+    "@types/mocha": "^2.2.34",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.2"
+  }
+}
